@@ -65,22 +65,19 @@ updateservers()
 ## Function to list each server and then run updateservers()
 servers()
 {
-    # Root users (don't need sudo)
-    # root users were for linode, but
-    # serverpilot updates server automaticallly.
-    
+    ## Root users
     # local rootusrs_list=(
-    #   ""
+    #     # "ip address"
     # )    
     
-    # users that need sudo
-    local sudousers_list=(
-        #"ip address"
-    )
+    ## Users that need sudo
+    # local sudousers_list=(
+    #     # "ip address"
+    # )
     
     ## Keeping just in case..
-    # updateservers rootusrs_list[@] $var_true
-    updateservers sudousers_list[@] $var_false
+    #updateservers rootusrs_list[@] $var_true
+    #updateservers sudousers_list[@] $var_false
 }
 
 ## Run servers()

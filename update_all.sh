@@ -70,15 +70,12 @@ servers()
     # serverpilot updates server automaticallly.
     
     # local rootusrs_list=(
-    #   "root@192.155.92.82"
+    #   ""
     # )    
     
     # users that need sudo
     local sudousers_list=(
-        "joel@192.168.1.5" 
-        "pi@192.168.1.8" 
-        "pi@192.168.1.9" 
-        #"pi@192.168.1.41"
+        #"ip address"
     )
     
     ## Keeping just in case..
